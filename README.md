@@ -4,6 +4,8 @@ This is an example of an MCP server in Python with two email tools, which allow 
 
 It uses the [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) and a third-party [ProtonMail wrapper](https://github.com/opulentfox-29/protonmail-api-client).
 
+## Using this server
+
 To use this with the Claude desktop app:
 
 Clone the repo, and then run `uv sync` or `pip install .` to install the requirements from the `pyproject.toml` file.
@@ -33,5 +35,12 @@ You can then use prompts like: "Write an email with a HTML body accepting the in
 
 Use at your own risk. It's a proof-of-concept, not a finished product.
 
-Matt Rudge
+## Contributing
+
+Feel free to fork the repo and make a PR if you'd like to suggest changes. Failing that, you could always...
+
+<a href="https://www.buymeacoffee.com/mattrudge" target="_blank"><img src="https://mattrudge.net/images/bmac.png" alt="Buy Matt A Coffee"></a>
+
+-----
+Matt Rudge<br/>
 April, 2025
