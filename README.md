@@ -27,7 +27,7 @@ Otherwise, create or edit the `claude_desktop_config.json` file at `~/Library/Ap
 }
 ```
 
-You'll need environment variables - `p_username` and `p_password` for Proton or `g_username` and `g_password` for Gmail. You can put these in an `env.py` file if you want.
+You'll need environment variables - `p_username` and `p_password` for Proton or `g_username` and `g_password` for Gmail. The Gmail password needs to be an [app-specific password](https://myaccount.google.com/apppasswords), not your regular account password. You can put these in an `env.py` file if you want.
 
 Restart Claude, and you should see the two tools under the hammer icon below the chat.
 
